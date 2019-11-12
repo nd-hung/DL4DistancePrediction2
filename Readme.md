@@ -1,4 +1,4 @@
-This repositoty is a Python 3 version of Jinbo Xu's code for his recent paper "Distance-based protein folding powered by deep learning", PNAS August 20, 2019 116 (34). Sharing as per Prof. Xu's request.
+This is a Python 3 version of Jinbo Xu's code for his recent paper "Distance-based protein folding powered by deep learning", PNAS August 20, 2019 116 (34). Sharing as per Prof. Xu's request.
 
 [Paper](https://www.pnas.org/content/116/34/16856)
 
