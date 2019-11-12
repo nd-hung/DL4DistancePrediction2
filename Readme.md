@@ -9,7 +9,7 @@ This is a Python 3 version of Jinbo Xu's code for his recent paper "Distance-bas
 ### Minor Fixes:
 - Indentation errors.
 - Indexing error in the function `utils.MidpointFeature()`.
-- Peplaced `opt` package by `argparse` for parsing arguments.
+- Replaced `opt` package by `argparse` for parsing arguments.
 - Displaying inference progress.
 
 ## Data preparation
