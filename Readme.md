@@ -31,10 +31,10 @@ Download them to local folder, e.g., './models'
 
 
 ## Running inference
-From the working folder, run the main script 'run_distance_predictor.py' for inference:
+From the working folder, run the main script `run_distance_predictor.py` for inference:
 
 ```console
-python RunDistancePredictor.py -m modelfiles -p predfiles [-d save_folder] [-g ground_truth_folder]
+python run_distance_predictor.py -m modelfiles -p predfiles [-d save_folder] [-g ground_truth_folder]
 ```
 Parameters:
 
