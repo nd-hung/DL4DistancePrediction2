@@ -6,7 +6,7 @@ This is a Python 3 version of Jinbo Xu's code for his recent paper "Distance-bas
 
 [Data (registration required)](http://raptorx.uchicago.edu/download)
 
-### Minor Fixes:
+### Minor fixes:
 - Indentation errors.
 - Indexing error in the function `utils.MidpointFeature()`.
 - Replaced `opt` package by `argparse` for parsing arguments.
