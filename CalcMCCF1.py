@@ -18,8 +18,8 @@ def str_display(ls):
 if __name__ == "__main__":
 
 	if len(sys.argv) != 4:
-    		print 'python CalcMCCF1.py pred_matrix_file distcb_matrix_file target'
-		print '      Both matrix files are text format with L lines and each line has L columns where L is the protein sequence length'
+    		print('python CalcMCCF1.py pred_matrix_file distcb_matrix_file target')
+		print('      Both matrix files are text format with L lines and each line has L columns where L is the protein sequence length')
     		exit(-1)
 
 	predFile = sys.argv[1]
@@ -33,5 +33,5 @@ if __name__ == "__main__":
 		#print "prob=", prob
 		accs = CalcMCCF1(pred=pred, truth=truth, probCutoff=prob/100.)
 		resultStr = target + ' ' + str(pred.shape[0]) + ' cutoff=' + str(prob) + ' ' + str_display(accs)
-		print resultStr
+		print(resultStr)
 
